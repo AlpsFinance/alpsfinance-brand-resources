@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="135" height="135" viewBox="0 0 135 135">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_78" data-name="Rectangle 78" width="69.814" height="86.297" fill="#3e4267"/>
+    </clipPath>
+  </defs>
+  <g id="Group_109" data-name="Group 109" transform="translate(-1092 -3226)">
+    <rect id="Rectangle_160" data-name="Rectangle 160" width="135" height="135" rx="67.5" transform="translate(1092 3226)" fill="#2d325a"/>
+    <g id="ALPS_LOGO_WHITE" data-name="ALPS LOGO WHITE" transform="translate(1124.593 3250.352)">
+      <g id="Group_31" data-name="Group 31" clip-path="url(#clip-path)">
+        <path id="Path_8" data-name="Path 8" d="M2.408,14.144c-2.592,7.5.6,17,6.483,22.683l38.2,34.241a69.281,69.281,0,0,1,11.17,12.8l1.173,1.737.072-.079A36.591,36.591,0,0,0,67.89,71.46c2.59-7.5-.6-17-6.484-22.683l-38.2-34.24A69.273,69.273,0,0,1,12.04,1.735L10.867,0l-.072.079A36.381,36.381,0,0,0,2.408,14.144" transform="translate(1.015 0)" fill="#3e4267"/>
+        <path id="Path_9" data-name="Path 9" d="M45.2,37.575C64.018,11.506,44.178,15,35.2,0c0,0-15.83,10.668-9.164,21.264,3.631,7.2,16.887,9.693,19.172,16.311" transform="translate(16.533 0)" fill="#3e4267"/>
+        <path id="Path_10" data-name="Path 10" d="M1.2,68.707c21.487,7.113,41.071-14.7,13.164-33.618-9.5-7.046-8.528-9.75-8.528-9.75C-8.692,46.388,9.526,56.5,1.2,68.707" transform="translate(0 16.211)" fill="#3e4267"/>
+      </g>
+    </g>
+  </g>
+</svg>
