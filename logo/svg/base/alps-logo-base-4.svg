@@ -1,12 +1,12 @@
-<svg id="ALPS_LOGO_WHITE" data-name="ALPS LOGO WHITE" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69.814" height="88.297" viewBox="0 0 69.814 88.297">
+<svg id="ALPS_LOGO_WHITE" data-name="ALPS LOGO WHITE" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="316.183" viewBox="0 0 250 316.183">
   <defs>
     <clipPath id="clip-path">
-      <rect id="Rectangle_78" data-name="Rectangle 78" width="69.814" height="88.297"/>
+      <rect id="Rectangle_78" data-name="Rectangle 78" width="250" height="316.183"/>
     </clipPath>
   </defs>
   <g id="Group_31" data-name="Group 31" clip-path="url(#clip-path)">
-    <path id="Path_8" data-name="Path 8" d="M2.408,14.472c-2.592,7.676.6,17.4,6.483,23.208l38.2,35.035a70.431,70.431,0,0,1,11.17,13.1l1.173,1.777.072-.081A37.625,37.625,0,0,0,67.89,73.116c2.59-7.676-.6-17.4-6.484-23.208l-38.2-35.033A70.424,70.424,0,0,1,12.04,1.775L10.867,0l-.072.081A37.408,37.408,0,0,0,2.408,14.472" transform="translate(1.015 0)"/>
-    <path id="Path_9" data-name="Path 9" d="M45.2,38.446C64.018,11.773,44.178,15.346,35.2,0c0,0-15.83,10.915-9.164,21.757,3.631,7.367,16.887,9.917,19.172,16.689" transform="translate(16.533 0)"/>
-    <path id="Path_10" data-name="Path 10" d="M1.2,69.712c21.487,7.278,41.071-15.043,13.164-34.4-9.5-7.209-8.528-9.976-8.528-9.976C-8.692,46.876,9.526,57.22,1.2,69.712" transform="translate(0 17.174)"/>
+    <path id="Path_8" data-name="Path 8" d="M4.756,51.824c-9.282,27.486,2.139,62.3,23.214,83.107L164.752,260.388a252.208,252.208,0,0,1,40,46.9l4.2,6.362.258-.288c14.467-16.059,23.851-32,30.033-51.542,9.276-27.486-2.145-62.3-23.22-83.107L79.242,53.266A252.182,252.182,0,0,1,39.247,6.356L35.048,0l-.258.288C20.322,16.347,11.311,31.535,4.756,51.824" transform="translate(7.5 0.001)"/>
+    <path id="Path_9" data-name="Path 9" d="M98.912,137.671C166.284,42.157,95.241,54.954,63.075,0c0,0-56.684,39.087-32.815,77.91,13,26.381,60.469,35.513,68.652,59.76" transform="translate(122.16 0.001)"/>
+    <path id="Path_10" data-name="Path 10" d="M4.308,184.235C81.251,210.3,151.381,130.369,51.446,61.062,17.429,35.246,20.908,25.339,20.908,25.339c-52.034,77.123,13.205,114.162-16.6,158.9" transform="translate(-0.001 126.895)"/>
   </g>
 </svg>
