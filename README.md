@@ -12,6 +12,54 @@ npm i @alpsfinance/brand
 yarn @alpsfinance/brand
 ```
 
-and check out all the documentation in our [Storybook](https://627f805dd17b65003a388ca0-cslbkhfzsj.chromatic.com/).
+and check out all the documentation in our [Storybook](https://main--627f805dd17b65003a388ca0.chromatic.com).
 
 Built with 💙 by Alps Finance.
+
+## Components
+
+### `<Logo />`
+
+#### 1. Base Logo
+
+```js
+import { Logo, AlpsLogoVariant } from "@alpsfinance/brand";
+
+const Component = () => {
+    return (
+        <Logo variant={AlpsLogoVariant.BASE} type={1}>
+    );
+};
+```
+
+#### 2. Circle Logo
+
+```js
+import { Logo, AlpsLogoVariant } from "@alpsfinance/brand";
+
+const Component = () => {
+    return (
+        <Logo variant={AlpsLogoVariant.CIRCLE} type={1}>
+    );
+};
+```
+
+#### 3. Rounded Logo
+
+```js
+import { Logo, AlpsLogoVariant } from "@alpsfinance/brand";
+
+const Component = () => {
+    return (
+        <Logo variant={AlpsLogoVariant.ROUNDED} type={1}>
+    );
+};
+```
+
+### `<LogoWithText />`
+
+Coming soon.
+
+## License
+
+[Creative Commons Zero v1.0 Universal](https://github.com/AlpsFinance/alpsfinance-brand-resources/blob/main/LICENSE)
