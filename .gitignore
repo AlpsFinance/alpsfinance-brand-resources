@@ -27,3 +27,4 @@ package-lock.json
 storybook-static/
 .DS_Store
 .env
+build-storybook.log
