@@ -1,5 +1,6 @@
 {
   "name": "@alpsfinance/brand",
+  "description": "Simple React UI Library for Alps Finance Brand Resources.",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
