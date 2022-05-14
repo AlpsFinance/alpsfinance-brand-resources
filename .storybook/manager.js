@@ -7,6 +7,6 @@ addons.setConfig({
     brandTitle: "Alps Finance",
     brandUrl: "https://alps.finance",
     brandImage:
-      "https://bafkreiggef554tmc3akxk5lt3ekite667hjxf6bahrlfamvy6njlru5sze.ipfs.nftstorage.link/",
+      "https://bafkreia4fqjyfdyerens3q7nvx2c36lpcpbb2r65tnoa4etzq5jgdb3lca.ipfs.nftstorage.link/",
   }),
 });

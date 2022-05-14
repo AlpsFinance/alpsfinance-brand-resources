@@ -27,11 +27,51 @@ import AlpsLogoRounded9 from "./collections/rounded/alps-logo-rounded-9";
 import AlpsLogoRounded10 from "./collections/rounded/alps-logo-rounded-10";
 import AlpsLogoRounded11 from "./collections/rounded/alps-logo-rounded-11";
 import AlpsLogoRounded12 from "./collections/rounded/alps-logo-rounded-12";
+import AlpsLogoSquare1 from "./collections/square/alps-logo-square-1";
+import AlpsLogoSquare2 from "./collections/square/alps-logo-square-2";
+import AlpsLogoSquare3 from "./collections/square/alps-logo-square-3";
+import AlpsLogoSquare4 from "./collections/square/alps-logo-square-4";
+import AlpsLogoSquare5 from "./collections/square/alps-logo-square-5";
+import AlpsLogoSquare6 from "./collections/square/alps-logo-square-6";
+import AlpsLogoSquare7 from "./collections/square/alps-logo-square-7";
+import AlpsLogoSquare8 from "./collections/square/alps-logo-square-8";
+import AlpsLogoSquare9 from "./collections/square/alps-logo-square-9";
+import AlpsLogoSquare10 from "./collections/square/alps-logo-square-10";
+import AlpsLogoSquare11 from "./collections/square/alps-logo-square-11";
+import AlpsLogoSquare12 from "./collections/square/alps-logo-square-12";
+
 import { AlpsLogoProps, AlpsLogoVariant } from "./types";
 
 const Logo: FC<AlpsLogoProps> = ({ variant = AlpsLogoVariant.BASE, type = 1 }) => {
   switch (variant) {
     case AlpsLogoVariant.SQUARE:
+      switch (type) {
+        case 1:
+          return <AlpsLogoSquare1 width={250} />
+        case 2:
+          return <AlpsLogoSquare2 width={250} />
+        case 3:
+          return <AlpsLogoSquare3 width={250} />
+        case 4:
+          return <AlpsLogoSquare4 width={250} />
+        case 5:
+          return <AlpsLogoSquare5 width={250} />
+        case 6:
+          return <AlpsLogoSquare6 width={250} />
+        case 7:
+          return <AlpsLogoSquare7 width={250} />
+        case 8:
+          return <AlpsLogoSquare8 width={250} />
+        case 9:
+          return <AlpsLogoSquare9 width={250} />
+        case 10:
+          return <AlpsLogoSquare10 width={250} />
+        case 11:
+          return <AlpsLogoSquare11 width={250} />
+        case 12:
+        default:
+          return <AlpsLogoSquare12 width={250} />
+      }
     case AlpsLogoVariant.ROUNDED:
       switch (type) {
         case 1:
