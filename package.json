@@ -13,7 +13,7 @@
   "scripts": {
     "start": "start-storybook -p 6006",
     "build": "build-storybook",
-    "chromatic": "npx chromatic --project-token=3aa6ecda8051"
+    "chromatic": "npx chromatic --exit-zero-on-changes"
   },
   "eslintConfig": {
     "extends": [

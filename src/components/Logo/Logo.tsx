@@ -21,6 +21,7 @@ import AlpsLogoRounded3 from "./collections/rounded/alps-logo-rounded-3";
 import AlpsLogoRounded4 from "./collections/rounded/alps-logo-rounded-4";
 import AlpsLogoRounded5 from "./collections/rounded/alps-logo-rounded-5";
 import AlpsLogoRounded6 from "./collections/rounded/alps-logo-rounded-6";
+import AlpsLogoRounded7 from "./collections/rounded/alps-logo-rounded-7";
 
 import { AlpsLogoProps, AlpsLogoVariant } from "./types";
 
@@ -40,8 +41,10 @@ const Logo: FC<AlpsLogoProps> = ({ variant = AlpsLogoVariant.BASE, type = 1 }) =
         case 5:
           return <AlpsLogoRounded5 width={250} />
         case 6:
-        default:
           return <AlpsLogoRounded6 width={250} />
+        case 7:
+        default:
+          return <AlpsLogoRounded7 width={250} />
       }
     case AlpsLogoVariant.CIRCLE:
       switch (type) {
