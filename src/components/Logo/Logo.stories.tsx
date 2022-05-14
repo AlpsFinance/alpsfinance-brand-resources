@@ -1,6 +1,7 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 import Logo from "./Logo";
+import { AlpsLogoVariant } from "./types";
 
 const stories = storiesOf("Brand Resources/Logo", module).addParameters({
   component: Logo,
@@ -12,6 +13,8 @@ const stories = storiesOf("Brand Resources/Logo", module).addParameters({
   },
 });
 
-["Square", "Rounded", "Circle"].forEach((name) => {
-  stories.add(name, () => <Logo />);
+[AlpsLogoVariant.BASE, AlpsLogoVariant.CIRCLE].forEach((variant: AlpsLogoVariant) => {
+  Array.from({ length: variant === AlpsLogoVariant.BASE ? 4 : 12 }, (_, i) => i + 1).forEach((type: number) => {
+    stories.add(`${variant} #${type}`, () => <Logo variant={variant} type={type} />);
+  })
 });

@@ -1,10 +1,11 @@
 export enum AlpsLogoVariant {
-  BASE,
-  SQUARE,
-  ROUNDED,
-  CIRCLE,
+  BASE = "Base",
+  SQUARE = "Square",
+  ROUNDED = "Rounded",
+  CIRCLE = "Circle",
 }
 
 export interface AlpsLogoProps {
   variant?: AlpsLogoVariant;
+  type?: number;
 }
