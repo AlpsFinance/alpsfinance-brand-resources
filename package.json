@@ -1,7 +1,7 @@
 {
   "name": "@alpsfinance/brand",
   "description": "Simple React UI Library for Alps Finance Brand Resources.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
