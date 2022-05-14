@@ -4,7 +4,10 @@ import Logo from "./Logo";
 import { AlpsLogoVariant } from "./types";
 
 // ==================== BASE LOGO ====================
-const BaseStories = storiesOf("Brand Resources/Logo/Base", module).addParameters({
+const BaseStories = storiesOf(
+  "Brand Resources/Logo/Base",
+  module,
+).addParameters({
   component: Logo,
   controls: { hideNoControlsWarning: true },
   docs: {
@@ -14,16 +17,17 @@ const BaseStories = storiesOf("Brand Resources/Logo/Base", module).addParameters
   },
 });
 
-
 Array.from({ length: 4 }, (_, i) => i + 1).forEach((type: number) => {
-  BaseStories.add(
-    `${AlpsLogoVariant.BASE} #${type}`,
-    () => <Logo variant={AlpsLogoVariant.BASE} type={type} />
-  );
+  BaseStories.add(`${AlpsLogoVariant.BASE} #${type}`, () => (
+    <Logo variant={AlpsLogoVariant.BASE} type={type} />
+  ));
 });
 
 // ==================== CIRCLE LOGO ====================
-const CircleStories = storiesOf("Brand Resources/Logo/Circle", module).addParameters({
+const CircleStories = storiesOf(
+  "Brand Resources/Logo/Circle",
+  module,
+).addParameters({
   component: Logo,
   controls: { hideNoControlsWarning: true },
   docs: {
@@ -34,14 +38,16 @@ const CircleStories = storiesOf("Brand Resources/Logo/Circle", module).addParame
 });
 
 Array.from({ length: 12 }, (_, i) => i + 1).forEach((type: number) => {
-  CircleStories.add(
-    `${AlpsLogoVariant.CIRCLE} #${type}`,
-    () => <Logo variant={AlpsLogoVariant.CIRCLE} type={type} />
-  );
+  CircleStories.add(`${AlpsLogoVariant.CIRCLE} #${type}`, () => (
+    <Logo variant={AlpsLogoVariant.CIRCLE} type={type} />
+  ));
 });
 
 // ==================== ROUNDED LOGO ====================
-const RoundedStories = storiesOf("Brand Resources/Logo/Rounded", module).addParameters({
+const RoundedStories = storiesOf(
+  "Brand Resources/Logo/Rounded",
+  module,
+).addParameters({
   component: Logo,
   controls: { hideNoControlsWarning: true },
   docs: {
@@ -52,14 +58,16 @@ const RoundedStories = storiesOf("Brand Resources/Logo/Rounded", module).addPara
 });
 
 Array.from({ length: 12 }, (_, i) => i + 1).forEach((type: number) => {
-  RoundedStories.add(
-    `${AlpsLogoVariant.ROUNDED} #${type}`,
-    () => <Logo variant={AlpsLogoVariant.ROUNDED} type={type} />
-  );
+  RoundedStories.add(`${AlpsLogoVariant.ROUNDED} #${type}`, () => (
+    <Logo variant={AlpsLogoVariant.ROUNDED} type={type} />
+  ));
 });
 
 // ==================== SQUARE LOGO ====================
-const SquareStories = storiesOf("Brand Resources/Logo/Square", module).addParameters({
+const SquareStories = storiesOf(
+  "Brand Resources/Logo/Square",
+  module,
+).addParameters({
   component: Logo,
   controls: { hideNoControlsWarning: true },
   docs: {
@@ -70,8 +78,7 @@ const SquareStories = storiesOf("Brand Resources/Logo/Square", module).addParame
 });
 
 Array.from({ length: 12 }, (_, i) => i + 1).forEach((type: number) => {
-  SquareStories.add(
-    `${AlpsLogoVariant.SQUARE} #${type}`,
-    () => <Logo variant={AlpsLogoVariant.SQUARE} type={type} />
-  );
+  SquareStories.add(`${AlpsLogoVariant.SQUARE} #${type}`, () => (
+    <Logo variant={AlpsLogoVariant.SQUARE} type={type} />
+  ));
 });

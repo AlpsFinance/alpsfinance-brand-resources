@@ -13,7 +13,13 @@
   "scripts": {
     "start": "start-storybook -p 6006",
     "build": "build-storybook",
-    "chromatic": "npx chromatic --exit-zero-on-changes"
+    "chromatic": "npx chromatic --exit-zero-on-changes",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix",
+    "prepare": "husky install",
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write \"**/*.{ts,tsx,json,html}\" .prettierrc --config ./.prettierrc",
+    "format": "npm run lint:fix && npm run prettier:fix"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +48,9 @@
     "@storybook/react": "^6.4.22",
     "@storybook/testing-library": "^0.0.11",
     "babel-loader": "^8.2.4",
-    "chromatic": "^6.5.4"
+    "chromatic": "^6.5.4",
+    "eslint": "^8.15.0",
+    "prettier": "^2.6.2",
+    "husky": "^7.0.0"
   }
 }
