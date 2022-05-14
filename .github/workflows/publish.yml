@@ -11,8 +11,8 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org
+      - run: npx husky-init && npm install
       - name: Publish to NPM
-        run: npx husky-init && npm install
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
