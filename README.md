@@ -2,7 +2,7 @@
 
 [![NPM Publish CI](https://github.com/AlpsFinance/alpsfinance-brand-resources/actions/workflows/publish.yml/badge.svg)](https://github.com/AlpsFinance/alpsfinance-brand-resources/actions/workflows/publish.yml)
 [![Chromatic Deployment CI](https://github.com/AlpsFinance/alpsfinance-brand-resources/actions/workflows/deploy.yml/badge.svg)](https://github.com/AlpsFinance/alpsfinance-brand-resources/actions/workflows/deploy.yml)
-![npm (scoped)](https://img.shields.io/npm/v/@alpsfinance/core)
+![npm (scoped)](https://img.shields.io/npm/v/@alpsfinance/brand)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 Find all our Brand Resources under the [`logo`](https://github.com/AlpsFinance/alpsfinance-brand-resources/tree/main/logo) folder.
