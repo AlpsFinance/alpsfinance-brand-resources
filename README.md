@@ -83,7 +83,7 @@ import { Logo, AlpsLogoVariant } from "@alpsfinance/brand";
 
 const Component = () => {
     return (
-        <Logo variant={AlpsLogoVariant.Square} type={1}>
+        <Logo variant={AlpsLogoVariant.SQUARE} type={1}>
     );
 };
 ```
