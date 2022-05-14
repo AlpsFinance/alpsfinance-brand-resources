@@ -1,6 +1,6 @@
 import { CSSProperties } from "react";
 
-export default interface AlpsLogoCircleProps {
+export default interface AlpsLogoRoundedProps {
   width?: number | string;
   height?: number | string;
   style?: CSSProperties;

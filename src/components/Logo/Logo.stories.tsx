@@ -13,7 +13,7 @@ const stories = storiesOf("Brand Resources/Logo", module).addParameters({
   },
 });
 
-[AlpsLogoVariant.BASE, AlpsLogoVariant.CIRCLE].forEach((variant: AlpsLogoVariant) => {
+[AlpsLogoVariant.BASE, AlpsLogoVariant.CIRCLE, AlpsLogoVariant.ROUNDED].forEach((variant: AlpsLogoVariant) => {
   Array.from({ length: variant === AlpsLogoVariant.BASE ? 4 : 12 }, (_, i) => i + 1).forEach((type: number) => {
     stories.add(`${variant} #${type}`, () => <Logo variant={variant} type={type} />);
   })
