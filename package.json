@@ -1,5 +1,5 @@
 {
-  "name": "alpsfinance-brand-resources",
+  "name": "@alpsfinance/brand",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
